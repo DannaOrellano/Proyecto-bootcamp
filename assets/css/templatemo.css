@@ -31,6 +31,12 @@ Table of contents
 /* Typography */
 body, ul, li, p, a, label, input, div {
  font-family: 'Playfair Display', sans-serif;
+ font-family: 'Raleway', sans-serif; /* Usa la misma fuente que el título */
+    color: #4a4a4a;    /* Un tono ligeramente más claro que el del título */
+    letter-spacing: 1px; /* Menos espaciado entre letras */
+    text-transform: none; /* Subtítulo en formato normal (sin mayúsculas) */
+    margin-top: 10px;   /* Espacio superior */
+    margin-bottom: 20px; /* Espacio inferior */
   font-size: 18px !important;
   font-weight: 300 !important;
 }
