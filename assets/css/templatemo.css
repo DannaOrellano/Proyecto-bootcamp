@@ -23,6 +23,8 @@ Table of contents
 14. Medium devices (tablets, 768px and up)
 15. Large devices (desktops, 992px and up)
 16. Extra large devices (large desktops, 1200px and up)
+17. Forms
+18. buttoons
 --------------------------------------------- */
 
 
@@ -194,3 +196,44 @@ body, ul, li, p, a, label, input, div {
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {}
+
+
+/* Formularios */
+form {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Botones */
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #43c43f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
