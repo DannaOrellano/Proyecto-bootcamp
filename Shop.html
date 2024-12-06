@@ -139,10 +139,34 @@
                         <li>
                             <a class="text-decoration-none" href="#">
                             <details>
-                                <summary>Productos</summary>
+                               
                                 <p>✨ Reserva ahora y asegúrate de que tu evento tenga el toque dulce perfecto. Puedes elegir entre una amplia variedad de sabores, diseños y tamaños, adaptados a tus necesidades.
                                     📅 ¿Tienes una fecha especial en mente?
 ¡No esperes más! Contáctanos con tiempo para garantizar la disponibilidad y darte el mejor servicio.</p>
+                                <style>
+        .redirect-button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+        .redirect-button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <button class="redirect-button" onclick="redirect()">Ir a Contacto</button>
+
+    <script>
+        function redirect() {
+            window.location.href = "contacto.html"; // Ruta relativa a la página contacto.html
+        }
+    </script>
                             </details>
                             </a>
                         </li>                        
